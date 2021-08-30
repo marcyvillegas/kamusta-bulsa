@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap" rel="stylesheet">
+    <title>Tailwind CSS</title>
+</head>
+
+<body class="bg-swhite">
+	<!-- MOBILE NavBar -->
+	<div class="bg-bg flex justify-between justify-items-center p-4 lg:hidden">
+		<img class="" src="/img/s-logo.png" alt="logo">
+		<img class="mr-2 cursor-pointer" src="/img/hmenu.svg" alt="menu">
+	</div>
+
+	<!-- Container of sidebar and contents -->
+	<div class="flex">
+
+		<!-- DESKTOP Sidebar -->
+		<div class="hidden bg-bg lg:flex flex-col justify-start items-center shadow h-screen w-80">
+            <img class="p-7 mt-1 w-4/5" src="/img/large-logo.svg" alt="large logo">
+
+            <!-- Side bar contents container-->
+            <div class="flex flex-col mt-12 w-80">
+                <!-- Side bar contents -->
+                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
+                    <img class="w-4" src="/img/profile.svg" alt="">
+                    <p class="text-[18px] font-pins text-white font-medium ml-3">Profile</p>
+                </div>
+                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
+                    <img class="w-4" src="/img/dash.svg" alt="">
+                    <p class="text-[18px] font-pins text-white font-medium ml-3">Dashborad</p>
+                </div>
+                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
+                    <img class="w-4" src="/img/ballance.svg" alt="">
+                    <p class="text-[18px] font-pins text-white font-medium ml-3">Balance</p>
+                </div>
+                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
+                    <img class="w-4" src="/img/expenses.svg" alt="">
+                    <p class="text-[18px] font-pins text-white font-medium ml-3">Expenses</p>
+                </div>
+                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
+                    <img class="w-4" src="/img/savings.svg" alt="">
+                    <p class="text-[18px] font-pins text-white font-medium ml-3">Savings</p>
+                </div>
+            </div>
+		</div>
+
+		<!-- Container of welcome text and contents -->
+		<div class="flex flex-col w-full ml-3 lg:ml-12">
+
+            <!-- DESKTOP icons-->
+            <div class="hidden lg:flex justify-end p-2 mt-8 mr-16 -mb-2">
+                <img class="w-5 cursor-pointer" src="/img/settings.svg" alt="">
+                <img class="w-5 cursor-pointer ml-2" src="/img/notif.svg" alt="">
+            </div>
+
+			<!-- Welcome Text -->
+			<div class="mt-11 lg:flex flex-col items-start">
+				<h1 class="text-boldtext font-pins font-medium text-xl mb-0 ml-4">Welcome back,</h1>
+				<p class="text-name font-pins font-medium text-3xl -mt-1 ml-4">Elon Musk</p>
+			</div>
+
+			<!-- Dashbox -->
+			<div class="flex flex-col mb-3 md:flex-row flex-wrap lg:flex-wrap">
+				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
+                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">BALANCE</h1>
+				</div>
+				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
+                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">EXPENSES</h1>
+				</div>
+				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
+                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">SAVINGS</h1>
+				</div>
+				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
+                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">HISTORY</h1>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
