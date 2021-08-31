@@ -1,3 +1,27 @@
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
+
+@layer base {
+  /* Sidebar Contents */
+  .side-contents {
+    @apply flex flex-row p-5 px-14 hover:bg-boldtext cursor-pointer;
+  }
+
+  .side-contents img {
+    @apply w-4;
+  }
+
+  .side-contents p {
+    @apply text-[18px] font-pins text-white font-medium ml-3;
+  }
+
+  /* Dasboard */
+  .dash-contents {
+    @apply bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60;
+  }
+
+  .dash-contents h1 {
+      @apply text-boldtext font-pins text-2xl font-semibold text-center;
+  }
+}

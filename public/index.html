@@ -22,41 +22,41 @@
 	<!-- Container of sidebar and contents -->
 	<div class="flex">
 
-		<!-- DESKTOP Sidebar -->
+		<!-- DESKTOP Sidebar container -->
 		<div class="hidden bg-bg lg:flex flex-col justify-start items-center shadow h-screen w-80">
             <img class="p-7 mt-1 w-4/5" src="/img/large-logo.svg" alt="large logo">
 
             <!-- Side bar contents container-->
             <div class="flex flex-col mt-12 w-80">
                 <!-- Side bar contents -->
-                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
-                    <img class="w-4" src="/img/profile.svg" alt="">
-                    <p class="text-[18px] font-pins text-white font-medium ml-3">Profile</p>
+                <div class="side-contents">
+                    <img src="/img/profile.svg" alt="">
+                    <p>Profile</p>
                 </div>
-                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
-                    <img class="w-4" src="/img/dash.svg" alt="">
-                    <p class="text-[18px] font-pins text-white font-medium ml-3">Dashborad</p>
+                <div class="side-contents">
+                    <img src="/img/dash.svg" alt="">
+                    <p>Dashboard</p>
                 </div>
-                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
-                    <img class="w-4" src="/img/ballance.svg" alt="">
-                    <p class="text-[18px] font-pins text-white font-medium ml-3">Balance</p>
+                <div class="side-contents">
+                    <img src="/img/ballance.svg" alt="">
+                    <p>Balance</p>
                 </div>
-                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
-                    <img class="w-4" src="/img/expenses.svg" alt="">
-                    <p class="text-[18px] font-pins text-white font-medium ml-3">Expenses</p>
+                <div class="side-contents">
+                    <img src="/img/expenses.svg" alt="">
+                    <p>Expenses</p>
                 </div>
-                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
-                    <img class="w-4" src="/img/savings.svg" alt="">
-                    <p class="text-[18px] font-pins text-white font-medium ml-3">Savings</p>
+                <div class="side-contents">
+                    <img src="/img/savings.svg" alt="">
+                    <p>Savings</p>
                 </div>
-                <div class="flex flex-row align-center p-5 px-14 hover:bg-boldtext cursor-pointer">
-                    <img class="w-4" src="/img/history.svg" alt="">
-                    <p class="text-[18px] font-pins text-white font-medium ml-3">History</p>
+                <div class="side-contents">
+                    <img src="/img/history.svg" alt="">
+                    <p>History</p>
                 </div>
             </div>
 		</div>
 
-		<!-- Container of welcome text and contents -->
+		<!-- Container of the right side contents -->
 		<div class="flex flex-col w-full ml-3 lg:ml-12">
 
             <!-- DESKTOP icons-->
@@ -71,20 +71,12 @@
 				<p class="text-name font-pins font-medium text-3xl -mt-1 ml-4">Elon Musk</p>
 			</div>
 
-			<!-- Dashbox -->
+			<!-- Dashboard -->
 			<div class="flex flex-col mb-3 md:flex-row flex-wrap lg:flex-wrap">
-				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
-                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">BALANCE</h1>
-				</div>
-				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
-                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">EXPENSES</h1>
-				</div>
-				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
-                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">SAVINGS</h1>
-				</div>
-				<div class="bg-white shadow-lg rounded-md p-10 m-0 w-40 h-56 md:ml-2 h-60 w-11/12 m-4 lg:w-5/12 h-60">
-                    <h1 class="text-boldtext font-pins text-2xl font-semibold text-center">HISTORY</h1>
-				</div>
+				<div class="dash-contents"><h1>BALANCE</h1></div>
+				<div class="dash-contents"><h1>EXPENSES</h1></div>
+				<div class="dash-contents"><h1>SAVINGS</h1></div>
+				<div class="dash-contents"><h1>HISTORY</h1></div>
 			</div>
 
 		</div>
